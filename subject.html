@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes for <span id="subject-title"></span></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="subject-header"></h1>
+        <div class="notes-section">
+            <textarea id="note-input" placeholder="Write your note here..."></textarea>
+            <button onclick="addNote()">Add Note</button>
+        </div>
+        <div id="notes-container">
+            <div id="notes-list"></div>
+        </div>
+        <button onclick="saveNotes()">Save Notes</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
